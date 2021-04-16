@@ -124,9 +124,17 @@ template <typename T>
 void dequeue(Queue<T> &q) {
   ElementPtr<T> del;
 
-  del = q.head;
-  q.head = q.head->next;
-  del->next = nullptr;
+  if(empty(q)){
+    del = nullptr;
+  }else if(q.head->next == nullptr){
+    del = q.head;
+    q.head = nullptr;
+    q.tail = nullptr;
+  }else {
+    del = q.head;
+    q.head = q.head->next;
+    del->next = nullptr;
+  }
 
   delete(del);
 }
