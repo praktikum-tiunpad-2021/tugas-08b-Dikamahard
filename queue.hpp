@@ -84,7 +84,7 @@ void enqueue(Queue<T> &q, const T &value, int priority) {
     q.tail = newElm;
   }else {
     while(newElm->prio <= temp->prio){
-      if(temp->next = nullptr)
+      if(temp->next == nullptr)
       break;
 
       prev = temp;

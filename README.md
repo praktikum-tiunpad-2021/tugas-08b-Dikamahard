@@ -1,9 +1,9 @@
-> **TODO: UBAH "NAMA" DAN "NPM" MENJADI NAMA DAN NPM KALIAN PADA KEMUDIAN HAPUS BARIS INI!**
+
 # Tugas Praktikum Struktur Data 08
 
 > Materi: Queue
 > Pengajar: Asisten Praktikum 2021
-## NAMA - NPM
+## RIZKY MAHARDIKA HARIYANTO - 140810200010
 
 **Harap untuk membaca instruksi terlebih dahulu sampai dipahami!**
 
